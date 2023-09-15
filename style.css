@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.illustration img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px
+
+}
+
+.container{
+   max-width: 400px;
+    border-radius: 10px;
+    background-color: white;
+
+    
+}
+
+.order-summary{
+   padding: 20px;
+}
+
+.h2order{
+    margin-bottom: 10px;
+}
+
+
+.message{
+    color: hsl(224, 23%, 55%) ;
+}
+
+.music{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between ;
+    align-items: center;
+
+    
+}
+
+div a{
+    margin-right: 30px;
+}
+
+div a:active{
+    color: hsl(223, 47%, 23%);
+}
+
+.price{
+    color:  hsl(224, 23%, 55%);
+}
+
+.sub-music{
+    display: flex;
+    gap: 15px;
+}
+
+
+.button{
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 5px 10px 18px hsl(224, 23%, 55%);
+}
+
+.button:active{
+    background-color:hsl(223, 47%, 23%);
+}
+
+.cancel{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:  hsl(224, 61%, 69%);
+}
+
+.cancel:active{
+    color: black;
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        width: 300px;
+        border-radius: 20px;
+        
+    }
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
